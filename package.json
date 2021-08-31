@@ -1,0 +1,19 @@
+{
+  "name": "http-browser-script",
+  "version": "0.0.1",
+  "description": "A Node HTTP plugin that allows you to send browser scripts from the server.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cblanquera/browser-script.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cblanquera/browser-script/issues"
+  },
+  "homepage": "https://github.com/cblanquera/browser-script#readme",
+  "main": "src/index.js",
+  "files": [ "src" ],
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
