@@ -37,7 +37,7 @@ app.get('/foo', function(req, res) {
 <script type="text/javascript" src="/browser/script.js"></script>
 <script type="text/javascript">
 //...
-bs.fetch('/foo')
+bs.import('/foo')
 //...
 </script>
 ```
@@ -64,3 +64,5 @@ const server = http.createServer(function(req, res) {
 
 server.listen(3000)
 ```
+
+You can see more [examples](./examples) in this repo.
